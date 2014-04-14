@@ -1,0 +1,79 @@
+To: =?UTF-8?B?0J7QsdGP0LfQsNGC0LXQu9GM0L3QviDRgdC80LXQvdC40YLRjCDQv9Cw0YA=?=  =?UTF-8?B?0L7Qu9GMIQ==?= <info@modxclub.ru>
+Subject: =?UTF-8?B?0J/QvtC70YPRh9C10L0g0L3QvtCy0YvQuSDQt9Cw0LrQsNC3?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Wed, 19 Mar 2014 19:39:35 +0400
+Return-Path: info@modxclub.ru
+From: shopModx eCommerce engine <info@modxclub.ru>
+Reply-To: info@modxclub.ru
+Message-ID: <7bd9e408dd1f9ca96054816020732e19@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.4]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="UTF-8"
+
+<h3 style="margin: 20px 0 50px;">
+    <p><a href="http://localhost/">shopModx eCommerce engine</a>. Новый заказ.</p>
+    <p>Номер заказа: <strong>4</strong></p>
+</h3>
+
+<h4>Тип заказа: <b></b></h4>
+
+<p style="font-weight: bold;">Данные покупателя:</p>
+<table border="1" width="90%">
+    <tbody>  
+        <tr>
+            <td width="30%">ФИО: </td>
+            <td></td>
+        </tr>
+            
+        <tr>
+            <td width="30%">Email: </td>
+            <td>invise@myrambler.ru</td>
+        </tr>
+            
+        <tr>
+            <td width="30%">Телефон: </td>
+            <td>89043349470</td>
+        </tr>
+            
+        <tr>
+            <td width="30%">Мобильный телефон: </td>
+            <td></td>
+        </tr>
+            
+        <tr>
+            <td width="30%">Адрес доставки: </td>
+            <td>авцацацац</td>
+        </tr>
+          
+            
+        <tr>
+            <td width="30%">Комментарии: </td>
+            <td></td>
+        </tr> 
+        
+        
+    </tbody>
+</table>
+
+
+<h3>Список товаров</h3>
+<table border="1" width="90%">
+    <tbody>
+        <tr>
+            <th>Фото</th>
+            <th>Наименование</th>
+            <th>Количество</th>
+            <th>Цена</th>
+            <th>Сумма</th>
+        </tr>
+                    <tr>
+                <td><img width="80" src="http://localhost//assets/images/products/antivirus/kaspersky2.jpg" title="Kaspersky Security для серверов совместной работы" />&nbsp;</td>
+                <td><a href="http://localhost/catalog/antivirus/antivirusyi-dlya-organizaczij/kaspersky.html">Kaspersky Security для серверов совместной работы</a></td> 
+                <td>1&nbsp;</td>
+                <td>25 350,00 руб.</td>
+                <td>25 350,00 руб.</td>
+            </tr>
+            </tbody>
+</table>

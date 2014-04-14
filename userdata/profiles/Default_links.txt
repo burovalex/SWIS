@@ -1,0 +1,2 @@
+﻿"Домашняя страница";-;http://open-server.ru
+Форум;-;http://open-server.ru/forum/

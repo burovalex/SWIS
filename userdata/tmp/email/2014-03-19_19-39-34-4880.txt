@@ -1,0 +1,38 @@
+To: invise@myrambler.ru
+Subject: =?UTF-8?B?0JTQsNC90L3Ri9C1INCy0LDRiNC10LPQviDQt9Cw0LrQsNC30LA=?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Wed, 19 Mar 2014 19:39:33 +0400
+Return-Path: info@modxclub.ru
+From: shopModx eCommerce engine <info@modxclub.ru>
+Reply-To: info@modxclub.ru
+Message-ID: <d7154f986a83f1b1d8d9aeed45f6fc33@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer (phpmailer.sourceforge.net) [version 2.0.4]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="UTF-8"
+
+<h3 style="margin: 20px 0 50px;">
+    <p>Номер заказа: <strong>4</strong></p>
+</h3> 
+
+
+<h3>Список товаров</h3>
+<table border="1" width="90%">
+    <tbody>
+        <tr>
+            <th>Фото</th>
+            <th>Наименование</th>
+            <th>Количество</th>
+            <th>Цена</th>
+            <th>Сумма</th>
+        </tr>
+                    <tr>
+                <td><img width="80" src="http://localhost//assets/images/products/antivirus/kaspersky2.jpg" title="Kaspersky Security для серверов совместной работы" />&nbsp;</td>
+                <td><a href="http://localhost/catalog/antivirus/antivirusyi-dlya-organizaczij/kaspersky.html">Kaspersky Security для серверов совместной работы</a></td>
+                <td>1&nbsp;</td>
+                <td>25 350,00 руб.</td>
+                <td>25 350,00 руб.</td>
+            </tr>
+            </tbody>
+</table>

@@ -1,0 +1,9 @@
+; autotrust trust anchor file
+;;id: . 1
+;;last_queried: 1370372869 ;;Tue Jun  4 23:07:49 2013
+;;last_success: 1370372869 ;;Tue Jun  4 23:07:49 2013
+;;next_probe_time: 1370376205 ;;Wed Jun  5 00:03:25 2013
+;;query_failed: 0
+;;query_interval: 3600
+;;retry_time: 3600
+.	98799	IN	DNSKEY	257 3 8 AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxhJhVVLOyQbSEW0O8gcCjFFVQUTf6v58fLjwBd0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJRkxoXbfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/VHL496M/QZxkjf5/Efucp2gaDX6RS6CXpoY68LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtuA6G3LQpzW5hOA2hzCTMjJPJ8LbqF6dsV6DoBQzgul0sGIcGOYl7OyQdXfZ57relSQageu+ipAdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwhYB4N7knNnulqQxA+Uk1ihz0= ;{id = 19036 (ksk), size = 2048b} ;;state=2 [  VALID  ] ;;count=0 ;;lastchange=1365885151 ;;Sun Apr 14 00:32:31 2013
