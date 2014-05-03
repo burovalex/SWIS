@@ -609,6 +609,13 @@ public class MainWindow {
 	 */
 	public static User auth(String login, String password){
 		//TODO: запрос авторизации, нужно получить от сервера подтверждение/отклонение входа, имя/фамилию и номер карты пользователя
+//		----------------
+//		Передача: String login, String password
+//		Прием: boolean authSuccess // успех/неудача авторизации
+//		int id;	//ИД пользователя
+//		long cardNumber; //номер карты
+//		String fname, sname; //имя фамилия
+//		----------------		
 		User user;
 		int id;
 		long cardNumber;
@@ -632,6 +639,16 @@ public class MainWindow {
 		boolean registerSuccess = false;
 		//TODO: запрос регистрации пользователя, отправляются значения всех полей введенные пользователем,
 		// принимается подтверждение или отклонение регистрации.
+//		----------------
+//		Передача:
+//		int id;	//ИД пользователя
+//		private String fname;
+//		private String sname;
+//		long cardNumber; //номер карты
+//		private String passwordHash; //хэш пароля
+//		Прием: boolean registerSuccess // успех/неуспех авторизации
+
+//		----------------	
 		return registerSuccess;
 	}
 	/**
@@ -641,6 +658,17 @@ public class MainWindow {
 	List<Product> getProducts(){
 		List <Product> newProducts;
 		//TODO: запрос списка продуктов у сервера, нужно получить массив или список (java.util.List) объектов Product, или значения полей этих объектов.
+//		----------------
+//		Передача: -
+//		Прием: List<Product> или Product[]
+//		model.Product поля классса:
+//		private int id;	//идентификатор - первичный ключ БД
+//		private String name;
+//		private String decsription;
+//		private String category;
+//		private double price;
+//		private String developer;
+//		----------------	
 		newProducts = new ArrayList<Product>();
 		//заглушка
 		newProducts.add(new Product(0,"Microsoft Office 2010","","Офис", 3000, "Microsoft"));
@@ -671,7 +699,11 @@ public class MainWindow {
 	 * запрос списка категорий ПО
 	 */
 	String[] getCategories(){
-		//TODO: запрос категорий у сервера
+		//TODO: запрос списка категорий ПО у сервера
+//		----------------
+//		Передача: -
+//		Прием: String[] categories;
+//		----------------	
 		return new String[] {"Антивирусы", "Офис", "Операционные системы"};
 	}
 	/**
@@ -682,6 +714,10 @@ public class MainWindow {
 	 */
 	//TODO: запрос описания продукта у сервера
 	String getProductDescription(int productID){
+//		----------------
+//		Передача: int productID
+//		Прием: String description // описание продукта
+//		----------------	
 		return "product description";
 	}
 	/**
@@ -689,10 +725,14 @@ public class MainWindow {
 	 * @param product
 	 */
 	void buyProduct(Product product){
-		//TODO:запрос добавления продукта в корзину
-		//отправляется ID продукта, ID пользователя (если нужно, добавить количество).
 		//product.getId();
 		//currentUser.getId();
+		//TODO:запрос добавления продукта в корзину
+		//отправляется ID продукта, ID пользователя (если нужно, добавить количество).
+//		----------------
+//		Передача: int productID, int UserID
+//		Прием: ничего или boolean buySuccess успех/неуспех покупки
+//		----------------	
 	}
 	/**
 	 * запрос содержимого корзины опеределенного пользователя
@@ -703,7 +743,13 @@ public class MainWindow {
 		HashMap <Product, Integer > mapProductQuantity = new HashMap<Product, Integer>();
 		//TODO: запрос
 		//отправление сведений о пользователе (ID), получение списка покупаемых продуктов и количество каждого продукта.
-
+//		----------------
+//		Передача: String login, String password
+//		Прием: HashMap <Product, Integer > 
+//		или Product[] products список продуктов 
+//		int[] quantities список количеств продуктов
+//		----------------	
+		
 //		for (int i = 0; i < productCount; i++){
 //			mapProductQuantity.put(products[i], quantity[i]);
 //		}
